@@ -1,0 +1,29 @@
+{
+  "name": "db-ts-npm-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node src/hellofetch.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deltaboukensha/db-ts-npm-hello.git"
+  },
+  "author": "daniel.boukensha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deltaboukensha/db-ts-npm-hello/issues"
+  },
+  "homepage": "https://github.com/deltaboukensha/db-ts-npm-hello#readme",
+  "dependencies": {
+    "@types/node-fetch": "2.5.7",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "13.11.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.2.4"
+  }
+}
